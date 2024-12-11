@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4c0ee;
+}
+
+/* Container Styling */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: #3d20be;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Navigation Buttons */
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+img{
+    width: 45%;
+}
+
+.tab {
+    background-color: #f22828;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #21ef39;
+}
+
+
+
+/* Form Elements */
+form {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #9a3de7;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ea5b4b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2ef40f;
+}
